@@ -3,42 +3,73 @@
     flex-direction:row;
     align-items:center;
 }*/
+@font-face {
+    font-family:CaviarDreams;
+    src: url(./fonts/CaviarDreams.ttf);
+}
 
 body{
-    background-color: rgb(113, 124, 161);
+    background-color: black;
 }
 section{
     display:flex;
 }
-
+button{
+    border-radius:50%;
+    size: 100px;
+}
 #divcontainer1{
     display: flex;
     flex-direction: row;
     align: center;
     margin-left:200px;
 }
-.btn{
-    font-size: medium;
-    border-radius: 20%;
-    background-color: cornflowerblue;
-    text-align: center;
-    padding:10px;
-    
+a{
+    color:goldenrod;
 }
-
 a:hover{
     background-color: white;
 }
-ul { list-style-type: none; padding: 0; margin: 0; }
+ul { 
+    list-style-type: none; 
+    padding: 0; 
+    margin: 0;
+    height:100px;
+    position: fixed; 
+}
 
-li { display: inline-block; display: inline; float: left; }
+li { 
+    display: inline-block; 
+    display: inline; 
+    float: left;
+    padding:20px;
+    font:bolder;
+    font-style: italic;
+    color: white;
+    font-size: large;
+}
 
 
 #btndiv{
     display:flex;
     flex-direction: row;
     align-items: right;
+    color:#fff;
 }
+
+/*.btn{
+    border-radius:25%;
+    font-size: large;
+    background-color:black;
+    font:larger;
+}*/
+
+
+button {
+    background-color: black;
+    align: right
+}
+
 .shadowbox{
     width: 15em;
   border: 1px solid #333;
@@ -48,12 +79,17 @@ li { display: inline-block; display: inline; float: left; }
 }
 
 h1{
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: #fff;
+    font-family:CaviarDreams;
+    color: goldenrod;
+    align-items: center;
 }
 p{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: CaviarDreams;
     color:#fff;
+    text-align: center;
+    justify-content: center;
+    flex-direction:column;
+    align-items:center;
 }
 
 .divcontainer2{
@@ -64,5 +100,16 @@ p{
 
 #divcontainder3{
     text-align:center;
+
 }
 
+h2{
+    color:goldenrod;
+    text-align: center;
+    text-decoration: wavy;
+}
+h3{
+    color: goldenrod;
+    text-align:center;
+    font-family: ;
+}
